@@ -1,6 +1,6 @@
 import { Avatar, Box, Button, ButtonGroup, Fab, Modal, Stack, TextField, Tooltip, Typography } from '@mui/material'
 import { Add, DateRange, EmojiEmotions, Image, PersonAdd, VideoCameraBack } from '@mui/icons-material'
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import styled from '@emotion/styled';
 
 const UserBox = styled(Box)({

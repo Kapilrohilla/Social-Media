@@ -2,7 +2,7 @@ import { styled } from '@mui/system'
 import { Notifications, Pets } from '@mui/icons-material'
 import MailIcon from '@mui/icons-material/Mail';
 import { AppBar, Avatar, Badge, Box, InputBase, Menu, MenuItem, Toolbar, Typography } from '@mui/material'
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 const StyledToolbar = styled(Toolbar)({
     display: "flex",
@@ -56,7 +56,7 @@ const Navbar = () => {
                     }
                 }} />
                 <Search>
-                    <InputBase placeholder='search...' sx={{ width: "100%" }} />
+                    <InputBase placeholder='search...' sx={{ width: "100%" , color: "black"}} />
                 </Search>
                 <Icons sx={{
                     display: {

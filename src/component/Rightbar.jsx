@@ -1,5 +1,4 @@
 import { List, ListItem, Divider, ListItemText, ListItemAvatar, Avatar, AvatarGroup, Box, ImageList, ImageListItem, Typography } from '@mui/material'
-import React from 'react'
 
 const Rightbar = () => {
     return (
@@ -54,7 +53,7 @@ const Rightbar = () => {
                         <ListItemText
                             primary="Brunch this weekend?"
                             secondary={
-                                <React.Fragment>
+                                <>
                                     <Typography
                                         sx={{ display: 'inline' }}
                                         component="span"
@@ -64,7 +63,7 @@ const Rightbar = () => {
                                         Ali Connors
                                     </Typography>
                                     {" — I'll be in your neighborhood doing errands this…"}
-                                </React.Fragment>
+                                </>
                             }
                         />
                     </ListItem>
@@ -76,7 +75,7 @@ const Rightbar = () => {
                         <ListItemText
                             primary="Summer BBQ"
                             secondary={
-                                <React.Fragment>
+                                <>
                                     <Typography
                                         sx={{ display: 'inline' }}
                                         component="span"
@@ -86,7 +85,7 @@ const Rightbar = () => {
                                         to Scott, Alex, Jennifer
                                     </Typography>
                                     {" — Wish I could come, but I'm out of town this…"}
-                                </React.Fragment>
+                                </>
                             }
                         />
                     </ListItem>
@@ -98,7 +97,7 @@ const Rightbar = () => {
                         <ListItemText
                             primary="Oui Oui"
                             secondary={
-                                <React.Fragment>
+                                <>
                                     <Typography
                                         sx={{ display: 'inline' }}
                                         component="span"
@@ -108,7 +107,7 @@ const Rightbar = () => {
                                         Sandra Adams
                                     </Typography>
                                     {' — Do you have Paris recommendations? Have you ever…'}
-                                </React.Fragment>
+                                </>
                             }
                         />
                     </ListItem>
